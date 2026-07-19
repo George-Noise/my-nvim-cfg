@@ -6,4 +6,6 @@
 -- prevent exit
 vim.keymap.set({'n', 'i', 'v'}, '<C-z>', '<Nop>')
 
+-- vim.keymap.set("n", "<F2>", vim.lsp.buf.rename)
+
 
