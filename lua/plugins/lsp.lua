@@ -7,4 +7,20 @@ return {
       ensure_installed = { "cssls" },
     },
   },
+  {
+    "neovim/nvim-lspconfig",
+    opts = {
+      servers = {
+        cssls = {
+          settings = {
+            css = {
+              lint = {
+                unknownAtRules = "ignore",
+              },
+            },
+          },
+        },
+      },
+    },
+  },
 }
