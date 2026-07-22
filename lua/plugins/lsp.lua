@@ -23,6 +23,9 @@ return {
             },
           },
         },
+        html = {
+          filetypes = { "html", "htmlangular" },
+        },
       },
     },
   },
